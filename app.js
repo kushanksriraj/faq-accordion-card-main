@@ -1,23 +1,7 @@
-for (let i=1; i<=5; i++){
+const accordion = document.getElementsByClassName('contentBx');
 
-    const faq = [];
-    faq[i] = document.querySelector(".faq-block-" + i);
-    faq[i].addEventListener("click", i => clickEventHandler(i));
+for(let i = 0; i<accordion.length; i++){
+    accordion[i].addEventListener("click", function(){
+          this.classList.toggle('active');
+    })
 }
-
-
-
-function clickEventHandler(i){
-
-    
-  
-}
-
-
-
-
-
-
-
-
-
