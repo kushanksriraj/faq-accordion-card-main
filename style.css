@@ -16,7 +16,6 @@ body {
 }
 
 main {
-    margin: auto;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -26,11 +25,12 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 article {
-    width: 70vw;
-    height: 60vh;
+    width: 70%;
+    height: 50vh;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -70,14 +70,12 @@ article {
 .accordion {
     width: 60%;
     padding-left: 2rem;
-    /* padding-top: 5rem; */
 }
 
 .accordion header {
     font-size: 2rem;
     font-weight: bold;
     padding-top: 2rem;
-    /* padding-bottom: 2rem; */
 }
 
 .contentBx {
@@ -90,15 +88,6 @@ article {
     height: 50px;
 }
 
-.accordion .contentBx.deactive .answer{
-    height: 0;
-}
-
-.accordion .contentBx.deactive .arrow {
-    /* transform: rotate(180deg); */
-}
-
-
 .q-block {
     /*label */
     position: relative;
@@ -106,7 +95,6 @@ article {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* padding-right: 1rem; */
     padding-bottom: 0.5rem;
     cursor: pointer;
 }
@@ -131,7 +119,6 @@ article {
     padding: 1rem 0;
     font-size: 0.8rem;
     position: relative;
-    /* color: hsl(14, 88%, 65%); */
 }
 
 .question:hover {
@@ -152,6 +139,5 @@ article {
     position: relative;
     color: hsl(240, 6%, 50%);
     transition: 0.5s;
-    /* padding-bottom: 0.5rem; */
     overflow-y: auto;
 }
