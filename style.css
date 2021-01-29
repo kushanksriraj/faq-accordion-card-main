@@ -29,8 +29,9 @@ section {
 }
 
 article {
-    width: 70%;
-    height: 50vh;
+    /* width: 70%; */
+    max-width: 800px;
+    min-height: 380px;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -44,9 +45,9 @@ article {
 }
 
 .img-div {
-    width: 40%;
+    width: 350px;
     background: url(/images/bg-pattern-desktop.svg);
-    background-position: 100% 80%;
+    background-position: 100% 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,27 +56,30 @@ article {
 .box-img {
     display: block;
     position: absolute;
-    bottom: 35%;
-    right: 78%;
+    bottom: 28vh;
+    right: 75vw;
 }
 
 .women-img {
     display: block;
     position: relative;
     right: 15%;
+    margin: 1rem;
 }
 
 /*---------------- faq ---------------*/
 
 .accordion {
-    width: 60%;
+    /* width: 480px; */
     padding-left: 2rem;
+    /* margin-top: 1rem; */
 }
 
 .accordion header {
     font-size: 2rem;
     font-weight: bold;
     padding-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contentBx {
@@ -91,7 +95,7 @@ article {
 .q-block {
     /*label */
     position: relative;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     display: flex;
     justify-content: space-between;
     width: 100%;
