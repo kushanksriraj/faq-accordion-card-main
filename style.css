@@ -29,7 +29,6 @@ section {
 }
 
 article {
-    /* width: 70%; */
     max-width: 800px;
     min-height: 380px;
     background-color: white;
@@ -45,9 +44,9 @@ article {
 }
 
 .img-div {
-    width: 350px;
+    width: 400px;
     background: url(/images/bg-pattern-desktop.svg);
-    background-position: 100% 65%;
+    background-position: 100% 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,8 +55,8 @@ article {
 .box-img {
     display: block;
     position: absolute;
-    bottom: 28vh;
-    right: 75vw;
+    bottom: 190px;
+    right: 920px;
 }
 
 .women-img {
@@ -70,9 +69,7 @@ article {
 /*---------------- faq ---------------*/
 
 .accordion {
-    /* width: 480px; */
     padding-left: 2rem;
-    /* margin-top: 1rem; */
 }
 
 .accordion header {
@@ -85,7 +82,6 @@ article {
 .contentBx {
     width: 85%;
     border-bottom: 2px solid hsl(240, 5%, 91%);
-    position: relative;
 }
 
 .accordion .contentBx.active .answer {
@@ -93,9 +89,6 @@ article {
 }
 
 .q-block {
-    /*label */
-    position: relative;
-    /* padding-top: 0.5rem; */
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -120,9 +113,8 @@ article {
 }
 
 .question {
-    padding: 1rem 0;
+    padding: 0.9rem 0;
     font-size: 0.8rem;
-    position: relative;
 }
 
 .question:hover {
@@ -131,17 +123,15 @@ article {
 
 .arrow {
     display: block;
-    width: 15px;
-    height: 12px;
+    width: 10px;
+    height: 8px;
     margin-top: 1rem;
 }
 
 .answer {
-    /* content */
     height: 0;
-    overflow: hidden;
-    position: relative;
+    font-size: small;
     color: hsl(240, 6%, 50%);
     transition: 0.5s;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
