@@ -1,5 +1,5 @@
-# Frontend Mentor - FAQ Accordion Card
-
+# Frontend Mentor - FAQ Accordion Card  (Desktop only)
+ 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
