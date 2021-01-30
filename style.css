@@ -54,9 +54,13 @@ article {
 
 .box-img {
     display: block;
-    position: absolute;
-    bottom: 28%;
+    position: fixed;
+    /* bottom: 28%; */
+    /* right: 75%; */
+    top: 62vh;
     right: 75%;
+    margin-top: -10%;
+    /* margin-left: -50%; */
 }
 
 .women-img {
