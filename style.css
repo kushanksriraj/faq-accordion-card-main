@@ -29,8 +29,8 @@ section {
 }
 
 article {
-    max-width: 800px;
-    min-height: 380px;
+    width: 800px;
+    height: 380px;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -55,12 +55,13 @@ article {
 .box-img {
     display: block;
     position: fixed;
-    /* bottom: 28%; */
-    /* right: 75%; */
-    top: 62vh;
-    right: 75%;
-    margin-top: -10%;
-    /* margin-left: -50%; */
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -475px;
+
 }
 
 .women-img {
